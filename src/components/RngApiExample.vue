@@ -36,7 +36,9 @@ export default {
   data() {
     return {
       needles: [],
-      searchModes: ['usm/sfmt/seed', 'sm/sfmt/seed'],
+      searchModes: [
+        'usm/sfmt/seed', 'sm/sfmt/seed',
+        'usm/sfmt/seed/id', 'sm/sfmt/seed/id'],
       selectedSearchMode: 'usm/sfmt/seed',
       results: [],
     };
