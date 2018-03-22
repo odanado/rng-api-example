@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <RngApiExample/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import RngApiExample from './components/RngApiExample';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    RngApiExample,
   },
 };
 </script>
@@ -23,6 +22,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 60px;
 }
 </style>
